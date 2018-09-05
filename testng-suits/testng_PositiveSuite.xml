@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Positive Suites" verbose="1" preserve-order="true">
+
+	<suite-files>
+		<suite-file path="testng_SmokeSuite.xml"></suite-file>
+	</suite-files>
+
+
+</suite>

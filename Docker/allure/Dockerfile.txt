@@ -1,0 +1,16 @@
+FROM ubuntu:16.04
+
+RUN \
+    apt-get update \
+    && apt-get install -y software-properties-common \
+    && apt-add-repository -y ppa:qameta/allure \
+    && apt-get update
+
+RUN apt-get install -y allure \
+    && mkdir -p /allure
+
+VOLUME ["/allure"]
+
+WORKDIR /allure
+
+CMD allure generate --clean /allure

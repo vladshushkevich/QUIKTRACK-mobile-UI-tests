@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke suite" verbose="1" >
+
+    <test name="GetBlockTest">
+        <classes>
+            <class name="org.stormnetdev.tests.api.tests.getLastRate.GetLastRateTest" />
+        </classes>
+    </test>
+
+</suite>

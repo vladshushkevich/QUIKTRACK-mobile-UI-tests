@@ -1,0 +1,5 @@
+/target/*
+/allure-results/*
+/testng-suits/.idea/*
+/testng-suits/test.xml
+.idea/*

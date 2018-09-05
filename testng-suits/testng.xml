@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Suites" verbose="1" preserve-order="true">
+	<suite-files>
+		<suite-file path="testng_PositiveSuite.xml"></suite-file>
+		<suite-file path="testng_NegativeSuite.xml"></suite-file>
+	</suite-files>
+</suite>
